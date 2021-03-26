@@ -8,15 +8,66 @@
 </head>
 
 <body>
-    <h2>タイトル</h2>
+    <div class="test">
+        <h2>タイトル</h2>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div id="test1" class="parent">
+        <div class="children">要素</div>
+    </div>
+
+    <br>
+    <br>
+
+    <div id="test2" class="parent">
+        <div class="children">要素</div>
+    </div>
+
+    <br>
+    <br>
+
+    <div id="test3" class="parent">
+        <div class="children">要素</div>
+    </div>
 </body>
 <style>
     h2 {
         color: blue;
+        width: 100%;
+        padding: 30px;
+        margin: 30px;
+        background-color: #ffee00;
     }
 
     body {
         background-color: #f2f2f2;
+    }
+
+    .test {
+        display: flex;
+        background-color: #ff0021;
+    }
+
+    .parent {
+        padding: 10px;
+        background-color: #9eefff;
+        display: flex;
+    }
+
+    #test1 {
+        justify-content: flex-start;
+    }
+
+    #test2 {
+        justify-content: flex-end;
+    }
+
+    #test3 {
+        justify-content: center;
     }
 </style>
 
