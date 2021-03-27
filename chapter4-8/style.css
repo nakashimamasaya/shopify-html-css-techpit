@@ -42,3 +42,23 @@ header {
     margin-bottom: 25px;
     line-height: 0;
 }
+
+header nav {
+    width: 70%;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+
+header li a {
+    color: #fff;
+    padding: 28px 17px;
+    display: block;
+}
+
+header li a:hover {
+    color: #009e45;
+}
