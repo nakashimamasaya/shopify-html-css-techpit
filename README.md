@@ -8,3 +8,7 @@
 * Swiperを使ったスライダーの実装を行います。
 * transition を使って色変化効果を用いたボタンを実装します。
 * Font Awesomeを使ったアイコンの設定方法を学びます。
+
+# Result
+コースが完了したもの
+https://nakashimamasaya.github.io/shopify-html-css-techpit/chapter4-8/
