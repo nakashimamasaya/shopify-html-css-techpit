@@ -230,3 +230,36 @@ footer a {
     text-align: right;
     color: #fff;
 }
+
+@media(max-width: 600px) {
+    .slide-contents-title {
+        font-size: 36px;
+    }
+
+    .slide-contents-text {
+        font-size: 24px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    }
+
+    .free-section-01 .container,
+    .free-section-02 .container {
+        padding-top: 100px;
+    }
+
+    .free-section-01,
+    .free-section-02 {
+        height: 500px;
+    }
+
+    .free-title {
+        font-size: 30px;
+    }
+
+    .free-text {
+        font-size: 20px;
+    }
+}
