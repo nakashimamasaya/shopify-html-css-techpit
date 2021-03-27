@@ -19,3 +19,26 @@ ul {
     margin-right: auto;
     margin-left: auto;
 }
+
+header {
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-main {
+    display: flex;
+}
+
+.logo {
+    width: 30%;
+    padding-left: 15px;
+}
+
+.logo-main {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 0;
+}
