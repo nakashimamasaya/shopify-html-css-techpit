@@ -207,3 +207,26 @@ footer a {
 .footer-nav-02 {
     width: 30%;
 }
+
+.footer-nav-03 {
+    width: 40%;
+}
+
+.footer-nav-03 ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-nav-03 li {
+    padding-left: 15px;
+    font-size: 50px;
+}
+
+.footer-bottom{
+    margin-top: 50px;
+}
+
+.copyright {
+    text-align: right;
+    color: #fff;
+}
