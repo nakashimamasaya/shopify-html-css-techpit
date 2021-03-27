@@ -190,3 +190,20 @@ footer {
     background: #000;
     padding: 50px 15px 50px;
 }
+
+footer nav {
+    display: flex;
+}
+
+footer a {
+    color: #fff;
+}
+
+.footer-nav-title {
+    color: #919496;
+}
+
+.footer-nav-01,
+.footer-nav-02 {
+    width: 30%;
+}
