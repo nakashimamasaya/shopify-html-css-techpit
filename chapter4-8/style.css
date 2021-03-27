@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
